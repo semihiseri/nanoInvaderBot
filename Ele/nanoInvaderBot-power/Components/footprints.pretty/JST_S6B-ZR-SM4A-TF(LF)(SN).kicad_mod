@@ -5,7 +5,7 @@
       (effects (font (size 1.000606 1.000606) (thickness 0.15)))
     (tstamp 361e6123-7830-4de0-8f24-03de617f342f)
   )
-  (fp_text value "JST_S6B-ZR-SM4A-TF_LF__SN_" (at 10.51135 6.5658) (layer "F.Fab")
+  (fp_text value "JST_S6B-ZR-SM4A-TF_LF__SN_" (at 10.51135 6.5658) (layer "F.Fab") hide
       (effects (font (size 1.000126 1.000126) (thickness 0.15)))
     (tstamp d6de3086-423c-4087-b032-c36416a290e7)
   )

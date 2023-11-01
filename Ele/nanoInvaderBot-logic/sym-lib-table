@@ -9,4 +9,6 @@
   (lib (name "TPS631000DRLR")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS631000DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "TLV61048DBVT")(type "KiCad")(uri "${KIPRJMOD}/Components/TLV61048DBVT.kicad_sym")(options "")(descr ""))
   (lib (name "M55-7101642R")(type "KiCad")(uri "${KIPRJMOD}/Components/M55-7101642R.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4110-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Components/USB4110-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "${KIPRJMOD}/Components/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
 )
