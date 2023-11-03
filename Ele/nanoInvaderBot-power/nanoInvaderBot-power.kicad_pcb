@@ -603,11 +603,11 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/1746142-1/TE+Connectivity/view-part/?ref=snap")
     (path "/9bc0954d-4e1a-4441-8d7a-cd0379c648a3")
     (attr smd)
-    (fp_text reference "J3" (at -1.8 -2.75 -90) (layer "F.SilkS")
+    (fp_text reference "J3" (at -1.8 -2.75 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0ff1606-bdf4-4845-9411-5dcc18786c3a)
     )
-    (fp_text value "1746142-1" (at 0.77 7.925 -90) (layer "F.Fab") hide
+    (fp_text value "1746142-1" (at 0.77 7.925 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4a87399a-2823-47d7-9888-1f812bee3364)
     )
@@ -659,6 +659,11 @@
       (net 4 "/GND") (pinfunction "SHIELD1") (pintype "passive") (solder_mask_margin 0.102) (tstamp 7271cfd1-45e5-4abe-b468-1a024f54c892))
     (pad "SH2" smd rect (at 5.7 -0.45 270) (size 1.8 2.1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/GND") (pinfunction "SHIELD2") (pintype "passive") (solder_mask_margin 0.102) (tstamp cedf8c66-dbfb-4123-891d-434f9c29a62b))
+    (model "${KIPRJMOD}/Components/c-1746142-01-o1-3d.stp"
+      (offset (xyz 0 1.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
